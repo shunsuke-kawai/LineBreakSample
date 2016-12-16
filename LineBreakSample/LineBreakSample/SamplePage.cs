@@ -25,6 +25,7 @@ namespace LineBreakSample
             layout.Children.Add(label);
 
             Content = layout;
+
         }
     }
 }
