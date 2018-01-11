@@ -22,4 +22,4 @@ install:
   - /Library/Frameworks/Mono.framework/Commands/nuget restore ${SOLUTION_NAME}.sln
 
 script:
-  - /Library/Frameworks/Mono.framework/Commands/xbuild /t:SignAndroidPackage /p:Configuration=Release ${SOLUTION_NAME}.Droid/${SOLUTION_NAME}.Droid.csproj
+  - /Library/Frameworks/Mono.framework/Commands/xbuild /t:SignAndroidPackage /p:Configuration=Release ${SOLUTION_NAME}/${SOLUTION_NAME}.Droid/${SOLUTION_NAME}.Droid.csproj
