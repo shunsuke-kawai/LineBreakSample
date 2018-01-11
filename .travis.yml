@@ -1,2 +1,3 @@
 language: csharp
 solution: LineBreakSample.sln
+mono: "5.4.1"
